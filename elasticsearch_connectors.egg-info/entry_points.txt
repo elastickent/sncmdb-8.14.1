@@ -1,0 +1,5 @@
+[console_scripts]
+connectors = connectors.connectors_cli:main
+elastic-ingest = connectors.service_cli:main
+fake-kibana = connectors.kibana:main
+test-connectors = scripts.testing.cli:main
